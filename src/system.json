@@ -1,0 +1,30 @@
+{
+  "name": "WOIN-System",
+  "title": "WOIN-System",
+  "description": "",
+  "version": "0.1.0",
+  "author": "",
+  "authors": [
+    {
+      "name": "",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "scripts": [],
+  "esmodules": ["WOIN-System.js"],
+  "styles": ["WOIN-System.css"],
+  "packs": [],
+  "languages": [],
+  "gridDistance": 1,
+  "gridUnits": "",
+  "minimumCoreVersion": "0.5.0",
+  "compatibleCoreVersion": "0.5.0",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "",
+  "readme": "",
+  "bugs": "",
+  "changelog": ""
+}
