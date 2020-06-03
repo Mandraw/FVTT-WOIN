@@ -1,10 +1,139 @@
 {
-  "Actor": {
-    "types": [],
-    "templates": []
-  },
-  "Item": {
-    "types": [],
-    "templates": []
-  }
+    "Actor": {
+        "types": ["character", "npc"],
+        "templates": {
+            "common": {
+                "attributes": {
+                    "str": {
+                        "value": 3,
+                        "bonus": 0
+                    },
+                    "agi": {
+                        "value": 3,
+                        "bonus": 0
+                    },
+                    "end": {
+                        "value": 3,
+                        "bonus": 0
+                    },
+                    "int": {
+                        "value": 3,
+                        "bonus": 0
+                    },
+                    "log": {
+                        "value": 3,
+                        "bonus": 0
+                    },
+                    "wil": {
+                        "value": 3,
+                        "bonus": 0
+                    },
+                    "cha": {
+                        "value": 3,
+                        "bonus": 0
+                    },
+                    "luc": {
+                        "value": 3,
+                        "maxValue": 0,
+                        "bonus": 0
+                    },
+                    "rep": {
+                        "value": 0,
+                        "bonus": 0
+                    },
+                    "opt": {
+                        "value": 0,
+                        "bonus": 0
+                    }
+                },
+                "derivedStatistics": {
+                    "health": {
+                        "value": 0,
+                        "maxValue": 0,
+                        "bonus": 0
+                    },
+                    "soak": {
+                        "value": 0,
+                        "bonus": 0
+                    },
+                    "speed": {
+                        "speed": {
+                            "value": 0,
+                            "bonus": 0
+                        },
+                        "climb": {
+                            "value": 0,
+                            "bonus": 0
+                        },
+                        "swim": {
+                            "value": 0,
+                            "bonus": 0
+                        }
+                    },
+                    "jump": {
+                        "vertical": {
+                            "value": 0,
+                            "bonus": 0
+                        },
+                        "horizontal": {
+                            "value": 0,
+                            "bonus": 0
+                        }
+                    },
+                    "carry": {
+                        "value": 0,
+                        "bonus": 0
+                    },
+                    "initiative": {
+                        "value": 0,
+                        "bonus": 0
+                    },
+                    "defenses": {
+                        "melee ": {
+                            "value": 0,
+                            "equipment": [],
+                            "skill": [],
+                            "bonus": 0
+                        },
+                        "ranged": {
+                            "value": 0,
+                            "equipment": [],
+                            "skill": [],
+                            "bonus": 0
+                        },
+                        "mental": {
+                            "value": 0,
+                            "skill": [],
+                            "bonus": 0
+                        },
+                        "vital": {
+                            "value": 0,
+                            "skill": [],
+                            "bonus": 0
+                        }
+                    }
+                },
+                "skills": [],
+                "equipment": {
+                    "attacks": [],
+                    "wearable": []
+                },
+                "items": []
+            }
+        },
+        "character": {
+            "templates": ["common"],
+            "details": {
+                "age": 0,
+                "trait": [],
+                "race": [],
+                "careers": [],
+                "hook": ""
+            }
+        }
+    },
+    "Item": {
+        "types": ["careers", "attacks", "wearable", "items", "race", "trait", "exploits"],
+        "templates": []
+    }
 }

@@ -1,30 +1,34 @@
 {
-  "name": "WOIN-System",
-  "title": "WOIN-System",
-  "description": "",
-  "version": "0.1.0",
-  "author": "",
-  "authors": [
-    {
-      "name": "",
-      "email": "",
-      "url": ""
-    }
-  ],
-  "scripts": [],
-  "esmodules": ["WOIN-System.js"],
-  "styles": ["WOIN-System.css"],
-  "packs": [],
-  "languages": [],
-  "gridDistance": 1,
-  "gridUnits": "",
-  "minimumCoreVersion": "0.5.0",
-  "compatibleCoreVersion": "0.5.0",
-  "url": "",
-  "manifest": "",
-  "download": "",
-  "license": "",
-  "readme": "",
-  "bugs": "",
-  "changelog": ""
+    "name": "WOIN-System",
+    "title": "WOIN-System",
+    "description": "The \"What's OLD is NEW\" system for FoundryVTT",
+    "version": "0.0.1",
+    "author": "Mandraw",
+    "authors": [{
+        "name": "",
+        "email": "",
+        "url": ""
+    }],
+    "scripts": [],
+    "esmodules": ["WOIN-System.js"],
+    "styles": ["WOIN-System.css"],
+    "packs": [],
+    "languages": [{
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+    }],
+    "initiative": "3d6",
+    "gridDistance": 1,
+    "gridUnits": "5ft",
+    "primaryTokenAttribute": "resources.health",
+    "minimumCoreVersion": "0.6.0",
+    "compatibleCoreVersion": "0.6.0",
+    "url": "",
+    "manifest": "",
+    "download": "",
+    "license": "",
+    "readme": "",
+    "bugs": "",
+    "changelog": ""
 }
